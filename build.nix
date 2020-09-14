@@ -5,6 +5,6 @@ let
   pkgs = import nixpkgs { config = {}; overlays = [ emacs-overlay ]; };
 in
 {
-  emacsGccDarwin = pkgs.emacsGccDarwin;
-  emacsGccDarwinWrapped = pkgs.emacsGccDarwinWrapped;
+  emacsGccSierra = pkgs.emacsGccSierra;
+  emacsGccSierraWrapped = pkgs.emacsGccSierraWrapped;
 }

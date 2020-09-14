@@ -1,1 +1,1 @@
-# nix-gccemacs-darwin
+# nix-gccemacs-sierra
