@@ -15,5 +15,4 @@ script:
   - nix-env -iA cachix -f https://cachix.org/api/v1/install
   - cachix use gccemacs-sierra
   - if [ -n "$CACHIX_SIGNING_KEY" ]; then cachix push gccemacs-sierra --watch-store; fi &
-  - nix-build -A emacsGccSierra
-  - sleep 10 # to allow cachix finish uploading
+  - nix-build -A emacsGccSierra | cachix push gccemacs-sierra
