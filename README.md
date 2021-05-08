@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/twlz0ne/nix-gccemacs-sierra.svg?branch=master)](https://travis-ci.com/twlz0ne/nix-gccemacs-sierra)
+[![CI](https://github.com/twlz0ne/nix-gccemacs-sierra/workflows/CI/badge.svg)](https://github.com/twlz0ne/nix-gccemacs-sierra/actions?query=workflow%3ACI)
 
 # nix-gccemacs-sierra
 
